@@ -85,6 +85,7 @@ button {
   bottom: 2.2rem;
   right: 2rem;
   z-index: 10;
+  cursor: pointer;
 }
 .back-to-top-btn[data-visible="false"] {
   opacity: 0;
