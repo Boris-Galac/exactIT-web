@@ -1,0 +1,64 @@
+/* from left opacity stagger */
+.hidden-left {
+  opacity: 0;
+  transform: translateX(-50%);
+}
+.hidden-left.active {
+  animation: left forwards 1.3s ease-out;
+}
+@keyframes left {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+.hidden-right {
+  opacity: 0;
+  transform: translateX(50%);
+}
+.hidden-right.active {
+  animation: right forwards 1.3s ease-out;
+}
+@keyframes right {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+/* HERO section */
+.hero__headline {
+  animation: hero-headline 5s forwards;
+}
+@keyframes hero-headline {
+  from {
+    clip-path: polygon(0 0, 5% 0, 5% 100%, 0% 100%);
+    opacity: 0;
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+    opacity: 1;
+  }
+}
+.hero__subheadline {
+  animation: hero-subheadline 2s forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+@keyframes hero-subheadline {
+  from {
+    clip-path: polygon(96% 0, 100% 0, 100% 100%, 96% 100%);
+    opacity: 0;
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    opacity: 1;
+  }
+}

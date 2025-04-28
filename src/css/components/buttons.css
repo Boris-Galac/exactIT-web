@@ -1,0 +1,99 @@
+button {
+  background-color: transparent;
+  border: 0;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--white);
+  outline: 2px solid var(--white);
+  padding-block: 16px;
+  padding-inline: 32px;
+  width: max-content;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.hero-cta-btn {
+  background: linear-gradient(to right, var(--black), var(--dark-blue));
+}
+.hero-cta-btn:hover img {
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.hero-contact-btn {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+.hero-contact-btn:hover {
+  background-color: hsla(0, 0%, 100%, 0.2);
+}
+.see-all-projects-btn {
+  border-radius: 100px;
+  margin-inline: auto;
+}
+.hero-linkedin-link {
+  position: absolute;
+  left: 16px;
+}
+@media (min-width: 1200px) {
+  .hero-linkedin-link {
+    position: absolute;
+    left: 100px;
+    scale: 1.5;
+    transition: 0.6s;
+  }
+  .hero-linkedin-link:hover {
+    scale: 1.8;
+  }
+}
+.scroll-down-btn {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 64px;
+  scale: 0.8;
+  animation: scroll-down 1.3s alternate infinite ease-in-out;
+}
+@keyframes scroll-down {
+  from {
+    transform: translateY(16px) translateX(-50%);
+  }
+  to {
+    transform: translateY(0px) translateX(-50%);
+  }
+}
+.contact-form-submit-btn {
+  background-color: var(--blue);
+  padding: 16px;
+  width: 100%;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  font: inherit;
+  transition: 1s;
+}
+.contact-form-submit-btn:hover {
+  scale: 1.05;
+}
+.see-all-projects-btn:hover {
+  background-color: hsla(0, 0%, 100%, 0.07);
+}
+
+.back-to-top-btn {
+  transition: 0.3s;
+  position: fixed;
+  bottom: 2.2rem;
+  right: 2rem;
+  z-index: 10;
+}
+.back-to-top-btn[data-visible="false"] {
+  opacity: 0;
+  pointer-events: none;
+}
+.back-to-top-btn[data-visible="true"] {
+  opacity: 1;
+  pointer-events: visible;
+}
+.back-to-top-btn img {
+  pointer-events: none;
+}

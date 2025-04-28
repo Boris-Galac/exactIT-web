@@ -1,0 +1,31 @@
+.container {
+  width: min(100% - 32px, 1024px);
+  margin-inline: auto;
+}
+.icon {
+  object-fit: contain;
+}
+.main {
+  position: relative;
+  background-color: var(--main-clr);
+  isolation: isolate;
+}
+.blur-1 {
+  position: absolute;
+  pointer-events: none;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  animation: blur-overlay 10s infinite ease-in-out alternate;
+}
+/* @keyframes blur-overlay {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 150%;
+  }
+} */

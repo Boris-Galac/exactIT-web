@@ -1,0 +1,28 @@
+.contact-form {
+  display: grid;
+  gap: 24px;
+}
+.contact-form__input-wrapper {
+  display: grid;
+  gap: 12px;
+}
+.contact-form__input {
+  background: transparent;
+  outline: 1px solid var(--white);
+  border-radius: 6px;
+  border: 0;
+  padding: 16px;
+  font: inherit;
+  color: var(--white);
+  transition: 0.3s;
+}
+.contact-form__input:focus {
+  background-color: hsla(0, 0%, 100%, 0.056);
+}
+.contact-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.268);
+}
+.contact-form textarea {
+  height: 200px;
+  text-indent: 0;
+}

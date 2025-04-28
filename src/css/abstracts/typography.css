@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+p {
+  line-height: 160%;
+}
+.hero__headline {
+  font-weight: 200;
+  font-size: clamp(40px, 7vw, 64px);
+}
+.hero__headline i {
+  font-weight: 700;
+}
+.hero__subheadline {
+  font-weight: 300;
+}
+.h2-heading {
+  font-weight: 200;
+  font-size: clamp(32px, 7vw, 48px);
+  text-transform: uppercase;
+}
+.h3-heading {
+  font-size: clamp(20px, 7vw, 32px);
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+.feature-h3-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.contact-h3-heading {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+.contact__text-box p {
+  font-weight: 200;
+}
+.contact h2 {
+  margin-inline: auto;
+}
+.contact .heading-line {
+  display: none;
+}

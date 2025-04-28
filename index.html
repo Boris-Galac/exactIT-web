@@ -1,0 +1,499 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet." />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="lorem, ipsum, dolor, sit, amet" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
+    ></script>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <!-- <link rel="stylesheet" href="/src/css/style.css" /> -->
+    <script defer src="/src/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="/src/assets/images/logo.png" alt="exactIT logotype" />
+      </a>
+      <nav class="nav" id="nav" aria-expanded="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <button
+        class="ham-btn"
+        aria-label="ham button"
+        data-active="false"
+        tabindex="0"
+        aria-controls="nav"
+      >
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+      </button>
+    </header>
+    <main class="main">
+      <!-- 👉 section HERO -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__wrapper">
+            <div class="hero__main-content">
+              <img
+                src="/src/assets/images/hero-exact-it-img.png"
+                alt=""
+                class="hero__main-content-logo"
+              />
+              <h1 class="hero__headline">
+                Empowering Your <i>Business</i> with Seamless
+                <i>IT Solutions</i>
+              </h1>
+              <p class="hero__subheadline">
+                Expert IT outsourcing & consulting to drive efficiency,
+                security, and growth
+              </p>
+              <div class="hero__cta-btns-wrapper">
+                <a href="#" class="btn hero-cta-btn hidden-left" role="button"
+                  >Get Started
+                  <img
+                    src="/src/assets/icons/hero-cta-arrow-icon.svg"
+                    alt="arrow"
+                /></a>
+                <a
+                  href="#"
+                  class="btn hero-contact-btn hidden-right"
+                  role="button"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+            <img
+              src="/src/assets/images/computer-illustration.png"
+              alt="computer"
+              class="computer-illustration"
+            />
+          </div>
+        </div>
+        <a href="#" class="hero-linkedin-link"
+          ><img src="/src/assets/icons/linkedin-icon.svg" alt="linkedin"
+        /></a>
+        <a href="#" class="scroll-down-btn"
+          ><img
+            src="/src/assets/icons/scroll-down-icon.svg"
+            alt="arrow scroll down"
+        /></a>
+      </section>
+      <!-- 👉 section SERVICES -->
+      <section class="services">
+        <div class="container">
+          <div class="services__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">our services</h2>
+            </div>
+            <div class="services__inner-wrapper">
+              <article class="service-card show-left">
+                <img
+                  src="/src/assets/icons/digital-strategy-icon.svg"
+                  class="icon"
+                  alt="digital strategy"
+                />
+                <div class="service-card__body">
+                  <h3 class="h3-heading">Digital Strategy & Advisory</h3>
+                  <p>Shaping your digital future through expert guidance</p>
+                </div>
+              </article>
+              <article class="service-card show-right">
+                <img
+                  src="/src/assets/icons/automation-icon.svg"
+                  class="icon"
+                  alt="automation"
+                />
+                <div class="service-card__body">
+                  <h3 class="h3-heading">Automation & Intelligent Systems</h3>
+                  <p>
+                    Making your business smarter, faster, and more efficient.
+                  </p>
+                </div>
+              </article>
+              <article class="service-card show-left">
+                <img
+                  src="/src/assets/icons/code-icon.svg"
+                  class="icon"
+                  alt="coding software"
+                />
+                <div class="service-card__body">
+                  <h3 class="h3-heading">Software Engineering & Delivery</h3>
+                  <p>
+                    From idea to product – full-cycle custom software
+                    development.
+                  </p>
+                </div>
+              </article>
+              <article class="service-card show-right">
+                <img
+                  src="/src/assets/icons/security-icon.svg"
+                  class="icon"
+                  alt="security"
+                />
+                <div class="service-card__body">
+                  <h3 class="h3-heading">Cloud Infrastructure & Security</h3>
+                  <p>Scalable, secure and future-ready IT environments.</p>
+                </div>
+              </article>
+              <article class="service-card show-left">
+                <img
+                  src="/src/assets/icons/remote-icon.svg"
+                  class="icon"
+                  alt="remote team"
+                />
+                <div class="service-card__body">
+                  <h3 class="h3-heading service-h3-heading">Remote Team</h3>
+                  <p>
+                    A brilliant group of professionals from all over the world
+                    is waiting to solve your problem.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 👉 section PORTFOLIO -->
+      <section class="portfolio">
+        <div class="container">
+          <div class="portfolio__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">portfolio projects</h2>
+            </div>
+            <div class="portfolio__inner-wrapper">
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Measurement Software</h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">
+                  Customer Realtionship Managment
+                </h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Enterprise Resource Planning</h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Geolocation</h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Payroll</h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Enterprise Solutions</h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Business Process Managment</h3>
+              </article>
+              <article class="portfolio-card">
+                <img
+                  src="/src/assets/icons/portfolio-arrow-icon.svg"
+                  alt="arrow"
+                />
+                <h3 class="portfolio-heading">Building Information Modeling</h3>
+              </article>
+            </div>
+            <a href="#" role="button" class="btn see-all-projects-btn"
+              >See all projects in details
+              <img
+                src="/src/assets/icons/see-all-projects-arrow-icon.svg"
+                class="icon"
+                alt="arrow"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- 👉 section TECHNOLOGY -->
+      <section class="technology">
+        <div class="container">
+          <div class="technology__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">Technology we use</h2>
+            </div>
+            <div class="technology__inner-wrapper">
+              <figure class="tech-card">
+                <img src="/src/assets/icons/aws-icon.png" alt="aws" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/sql-icon.png" alt="sql" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/docker-icon.png" alt="docker" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/azure-icon.png" alt="azure" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/java-icon.png" alt="java" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/angular-icon.png" alt="angular" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/net-icon.png" alt="net" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/flutter-icon.png" alt="flutter" />
+              </figure>
+              <figure class="tech-card">
+                <img
+                  src="/src/assets/icons/sql-server-icon.png"
+                  alt="sql server"
+                />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/postgree-icon.png" alt="postgree" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/oracle-icon.png" alt="oracle" />
+              </figure>
+              <figure class="tech-card">
+                <img src="/src/assets/icons/ibm-icon.png" alt="ibm" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 👉 section FEATURES -->
+      <section class="features">
+        <img
+          src="/src/assets/images/features-img.svg"
+          aria-hidden="true"
+          class="features-overlay"
+        />
+        <div class="container">
+          <div class="features__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">Why choose us?</h2>
+            </div>
+            <div class="features__inner-wrapper">
+              <article class="feature hidden-left">
+                <div class="feature__text-box">
+                  <div
+                    class="feature-line hidden-left"
+                    style="animation-delay: 0.2s"
+                  ></div>
+                  <h3
+                    class="feature-h3-heading hidden-left"
+                    style="animation-delay: 0.4s"
+                  >
+                    PROFESSIONAL
+                  </h3>
+                  <p class="hidden-left" style="animation-delay: 0.6s">
+                    A fantastic group of developers and software engineers who
+                    consistently deliver excellent results.
+                  </p>
+                </div>
+                <img
+                  src="/src/assets/images/feature-img-1.png"
+                  class="features__img"
+                  alt="people with laptops"
+                />
+              </article>
+              <article class="feature hidden-right">
+                <div class="feature__text-box">
+                  <div
+                    class="feature-line hidden-right"
+                    style="animation-delay: 0.2s"
+                  ></div>
+                  <h3
+                    class="feature-h3-heading hidden-right"
+                    style="animation-delay: 0.4s"
+                  >
+                    QUALITY
+                  </h3>
+                  <p class="hidden-right" style="animation-delay: 0.6s">
+                    Quality is our advantage because we focus on a long term
+                    partnerships with all our clients. We guarantee and stay
+                    behind our work.
+                  </p>
+                </div>
+                <img
+                  src="/src/assets/images/feature-img-2.png"
+                  class="features__img"
+                  alt="people with laptops"
+                />
+              </article>
+              <article class="feature hidden-left">
+                <div class="feature__text-box">
+                  <div
+                    class="feature-line hidden-left"
+                    style="animation-delay: 0.2s"
+                  ></div>
+                  <h3
+                    class="feature-h3-heading hidden-left"
+                    style="animation-delay: 0.4s"
+                  >
+                    DELIVERY
+                  </h3>
+                  <p class="hidden-left" style="animation-delay: 0.6s">
+                    Delivery on time is our focus. Leading with willing to
+                    success and exact estimates we are always on time.
+                  </p>
+                </div>
+                <img
+                  src="/src/assets/images/feature-img-3.png"
+                  class="features__img"
+                  alt="people with laptops"
+                />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 👉 section CONTACT -->
+      <section class="contact">
+        <div class="container">
+          <div class="contact__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">CONTACT US</h2>
+            </div>
+            <div class="contact__inner-wrapper">
+              <div class="contact__text-box">
+                <h3 class="contact-h3-heading">Ready to take the next step?</h3>
+                <p>
+                  Whether you're looking for tailored IT solutions or
+                  result-driven business consulting, our team is here to listen.
+                  Send us your inquiry and we’ll get back to you shortly.
+                </p>
+              </div>
+              <form class="contact-form">
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.3s"
+                >
+                  <label for="name">Your full name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="John Doe"
+                    class="contact-form__input"
+                  />
+                </div>
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.6s"
+                >
+                  <label for="name">Your email name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="john.doe@gmail.com"
+                    class="contact-form__input"
+                  />
+                </div>
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.9s"
+                >
+                  <label for="textarea">Your email name</label>
+                  <textarea
+                    name="textarea"
+                    id="textarea"
+                    placeholder="Leave a message..."
+                    class="contact-form__input"
+                  >
+                  </textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn contact-form-submit-btn hidden-left"
+                  style="animation-delay: 1.5s"
+                >
+                  Send us an Enquire
+                  <img
+                    src="/src/assets/icons/send-msg-icon.svg"
+                    alt="send icon"
+                  />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="/src/assets/images/blur-1.png"
+        class="blur-1"
+        aria-hidden="true"
+      />
+    </main>
+    <button class="back-to-top-btn" data-visible="false">
+      <img src="/src/assets/icons/back-to-top-icon.svg" alt="arrow up" />
+    </button>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a href="index.html" class="footer__logo">
+            <img src="/src/assets/images/footer-logo.png" alt="logo" />
+          </a>
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Home</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Projects</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">About</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__copyright">
+            <p>Copyright © 2025 Exact IT | Powered by Exact IT</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
