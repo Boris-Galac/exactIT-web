@@ -57,9 +57,11 @@ button {
 @keyframes scroll-down {
   from {
     transform: translateY(16px) translateX(-50%);
+    left: 50%;
   }
   to {
     transform: translateY(0px) translateX(-50%);
+    left: 50%;
   }
 }
 .contact-form-submit-btn {
@@ -108,8 +110,4 @@ button {
 .proposal-btn:hover,
 .schedule-btn:hover {
   background-color: hsla(0, 0%, 100%, 0.08);
-}
-.proposal-btn {
-}
-.schedule-btn {
 }
