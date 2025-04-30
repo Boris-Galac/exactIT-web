@@ -21,11 +21,6 @@
   z-index: -1;
   animation: blur-overlay 10s infinite ease-in-out alternate;
 }
-/* @keyframes blur-overlay {
-  from {
-    height: 100%;
-  }
-  to {
-    height: 150%;
-  }
-} */
+.subpage {
+  padding-top: 56px;
+}

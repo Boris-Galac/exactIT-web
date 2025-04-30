@@ -59,3 +59,19 @@ p {
 .contact .heading-line {
   display: none;
 }
+.service-card p {
+  font-weight: 200;
+}
+.banner-headline {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  font-weight: 400;
+  font-size: clamp(40px, 7vw, 124px);
+}
+.services-page__heading {
+  font-size: clamp(20px, 7vw, 32px);
+  margin: auto;
+  text-align: right;
+  margin-right: 20px;
+}

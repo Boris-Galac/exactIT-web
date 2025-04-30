@@ -10,9 +10,7 @@
   text-align: center;
   box-shadow: 0 8px 13px hsla(0, 0%, 0%, 0.329);
 }
-.service-card p {
-  font-weight: 100;
-}
+
 @media (min-width: 768px) {
   .service-card {
     justify-content: space-between;

@@ -9,10 +9,12 @@
 @import "components/service-card.css";
 @import "components/portfolio-card.css";
 @import "components/tech-card.css";
+@import "components/banner.css";
 @import "components/contact-form.css";
 @import "components/footer.css";
 /* pages */
 @import "pages/home.css";
+@import "pages/services-page.css";
 /* utilities */
 @import "utilities/animations.css";
 @import "utilities/globals.css";

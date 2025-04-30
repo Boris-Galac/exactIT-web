@@ -98,3 +98,18 @@ button {
 .back-to-top-btn img {
   pointer-events: none;
 }
+.proposal-btn,
+.schedule-btn {
+  border-radius: 100px;
+  width: 100%;
+  justify-content: center;
+  transition: 0.25s;
+}
+.proposal-btn:hover,
+.schedule-btn:hover {
+  background-color: hsla(0, 0%, 100%, 0.08);
+}
+.proposal-btn {
+}
+.schedule-btn {
+}

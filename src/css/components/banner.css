@@ -1,0 +1,26 @@
+.subpage-banner {
+  position: relative;
+  height: 40vh;
+  isolation: isolate;
+}
+.subpage-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/src/assets/images/subpage-banner.png") no-repeat center
+    center/cover;
+  background-position-x: right;
+  height: 40vh;
+  z-index: -1;
+  animation: banner 3s forwards;
+}
+@keyframes banner {
+  from {
+    opacity: 0;
+    clip-path: circle(5.4% at 100% 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: circle(141.3% at 100% 0);
+  }
+}
