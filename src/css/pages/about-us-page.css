@@ -1,0 +1,25 @@
+.about-us-logo {
+  width: min(70%, 250px);
+  margin-inline: auto;
+}
+.about-us-page__wrapper {
+  display: grid;
+  gap: 64px;
+}
+.about-us__row-wrapper {
+  padding: 16px;
+  border-radius: 10px;
+  outline: 1px solid hsla(0, 0%, 100%, 0.15);
+  background-color: hsla(0, 0%, 100%, 0.04);
+}
+.about-us-h2-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: clamp(40px, 7vw, 56px);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.about-us__row-wrapper p {
+  font-weight: 300;
+  text-align: center;
+}

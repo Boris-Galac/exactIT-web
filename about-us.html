@@ -1,0 +1,208 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - ExacIT</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/icons/favicon.svg"
+      type="image/x-icon"
+    />
+    <meta name="description" content="Lorem ipsum dolor sit amet." />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="lorem, ipsum, dolor, sit, amet" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
+    ></script>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <!-- <link rel="stylesheet" href="/src/css/style.css" /> -->
+    <script defer src="/src/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="/src/assets/images/logo.png" alt="exactIT logotype" />
+      </a>
+      <nav class="nav" id="nav" aria-expanded="false">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="services.html" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a href="about-us.html" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="ham-btn"
+        aria-label="ham button"
+        data-active="false"
+        tabindex="0"
+        aria-controls="nav"
+      >
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+      </button>
+    </header>
+    <main class="main subpage">
+      <figure class="subpage-banner">
+        <h1 class="banner-headline">About Us</h1>
+      </figure>
+      <!-- 👉 section ABOUT-USE-PAGE -->
+      <section class="about-us-page">
+        <div class="container">
+          <div class="about-us-page__wrapper">
+            <img
+              src="/src/assets/images/exact-it-logo 1.png"
+              alt="exactIT logo"
+              class="about-us-logo"
+            />
+            <div class="about-us__row-wrapper">
+              <h2 class="about-us-h2-heading hidden-left">our story</h2>
+              <p class="hidden-left" style="animation-delay: 0.4s">
+                Company is founded in 2016 and has a lots of successful projects
+                behind. Our partners and our clients have recognized our quality
+                to develop and deliver any kind of software. R&D team constantly
+                work on improvement and testing new technologies.
+              </p>
+            </div>
+            <div class="about-us__row-wrapper">
+              <h2
+                class="about-us-h2-heading hidden-left"
+                style="animation-delay: 0.5s"
+              >
+                our vision
+              </h2>
+              <p class="hidden-left" style="animation-delay: 0.85s">
+                To be the company most admired for its people, long-term
+                partnerships and high-quality performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 👉 section CONTACT -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">CONTACT US</h2>
+            </div>
+            <div class="contact__inner-wrapper">
+              <div class="contact__text-box">
+                <h3 class="contact-h3-heading">Ready to take the next step?</h3>
+                <p>
+                  Whether you're looking for tailored IT solutions or
+                  result-driven business consulting, our team is here to listen.
+                  Send us your inquiry and we’ll get back to you shortly.
+                </p>
+              </div>
+              <form class="contact-form">
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.3s"
+                >
+                  <label for="name">Your full name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="John Doe"
+                    class="contact-form__input"
+                  />
+                </div>
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.6s"
+                >
+                  <label for="name">Your email name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="john.doe@gmail.com"
+                    class="contact-form__input"
+                  />
+                </div>
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.9s"
+                >
+                  <label for="textarea">Your email name</label>
+                  <textarea
+                    name="textarea"
+                    id="textarea"
+                    placeholder="Leave a message..."
+                    class="contact-form__input"
+                  >
+                  </textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn contact-form-submit-btn hidden-left"
+                  style="animation-delay: 1.5s"
+                >
+                  Send us an Enquire
+                  <img
+                    src="/src/assets/icons/send-msg-icon.svg"
+                    alt="send icon"
+                  />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="/src/assets/images/blur-1.png"
+        class="blur-1"
+        aria-hidden="true"
+      />
+    </main>
+    <button class="back-to-top-btn" data-visible="false">
+      <img src="/src/assets/icons/back-to-top-icon.svg" alt="arrow up" />
+    </button>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a href="index.html" class="footer__logo">
+            <img src="/src/assets/images/footer-logo.png" alt="logo" />
+          </a>
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">Home</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Projects</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="about-us.html">About</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__copyright">
+            <p>Copyright © 2025 Exact IT | Powered by Exact IT</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
