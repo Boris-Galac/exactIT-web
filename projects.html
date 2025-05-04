@@ -1,0 +1,271 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - ExacIT</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/icons/favicon.svg"
+      type="image/x-icon"
+    />
+    <meta name="description" content="Lorem ipsum dolor sit amet." />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="lorem, ipsum, dolor, sit, amet" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"
+    ></script>
+    <link rel="stylesheet" href="/dist/style.css" />
+    <!-- <link rel="stylesheet" href="/src/css/style.css" /> -->
+    <script defer src="/src/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="header__logo">
+        <img src="/src/assets/images/logo.png" alt="exactIT logotype" />
+      </a>
+      <nav class="nav" id="nav" aria-expanded="false">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="services.html" class="nav__link">Services</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="about-us.html" class="nav__link">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="ham-btn"
+        aria-label="ham button"
+        data-active="false"
+        tabindex="0"
+        aria-controls="nav"
+      >
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+      </button>
+    </header>
+    <main class="main subpage">
+      <figure class="subpage-banner">
+        <h1 class="banner-headline">Projects</h1>
+      </figure>
+      <!-- 👉 section PROJECTS PAGE -->
+      <section class="projects-page">
+        <div class="container">
+          <a class="back-to-home-btn" href="index.html"
+            ><img
+              src="/src/assets/icons/back-to-home-icon.svg"
+              alt="arrow left"
+            />
+            Back to home</a
+          >
+          <div class="projects__wrapper">
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">
+                ERP (Enterprise Resource Planning)
+              </h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  We have experience building ERP systems that unify business
+                  operations and improve overall organizational efficiency.
+                  These solutions offer centralized control, streamlined
+                  workflows, and better resource planning.
+                </p>
+              </div>
+            </article>
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">
+                CRM (Customer Relationship Management)
+              </h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  Our team has worked on CRM platforms designed to manage
+                  customer relationships, sales pipelines, and communication.
+                  They help businesses boost customer satisfaction, retention,
+                  and sales performance.
+                </p>
+              </div>
+            </article>
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">Geolocation</h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  Experience in developing geolocation systems focused on
+                  real-time tracking and spatial data visualization. These
+                  solutions enable smarter field operations, route planning, and
+                  asset management.
+                </p>
+              </div>
+            </article>
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">
+                BIM (Building Information Modeling)
+              </h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  We’ve been involved in building BIM platforms that support
+                  collaboration and digital project planning in construction.
+                  The software improves coordination, minimizes errors, and
+                  streamlines the entire building lifecycle.
+                </p>
+              </div>
+            </article>
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">
+                BPM (Business Process Management)
+              </h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  Experience in creating BPM systems that automate and optimize
+                  internal business workflows. These platforms support greater
+                  transparency, efficiency, and agility across departments.
+                </p>
+              </div>
+            </article>
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">Payroll</h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  Our work includes the development of payroll systems that
+                  automate complex calculations and ensure regulatory
+                  compliance. These tools provide timely, accurate payments and
+                  reduce administrative overhead.
+                </p>
+              </div>
+            </article>
+            <article class="projects-page-card">
+              <h2 class="projects-page-heading">Measurement Software</h2>
+              <div class="projects-page-card__inner-wrapper">
+                <p>
+                  Contributed as part of a team working on complex global
+                  measurement software for tracking and analyzing website
+                  visits. The solution supports data-driven decision-making by
+                  providing detailed insights into user behavior and engagement.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- 👉 section CONTACT -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact__wrapper">
+            <div class="section-heading-wrapper">
+              <div class="heading-line"></div>
+              <h2 class="h2-heading">CONTACT US</h2>
+            </div>
+            <div class="contact__inner-wrapper">
+              <div class="contact__text-box">
+                <h3 class="contact-h3-heading">Ready to take the next step?</h3>
+                <p>
+                  Whether you're looking for tailored IT solutions or
+                  result-driven business consulting, our team is here to listen.
+                  Send us your inquiry and we’ll get back to you shortly.
+                </p>
+              </div>
+              <form class="contact-form">
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.3s"
+                >
+                  <label for="name">Your full name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="John Doe"
+                    class="contact-form__input"
+                  />
+                </div>
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.6s"
+                >
+                  <label for="name">Your email name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    placeholder="john.doe@gmail.com"
+                    class="contact-form__input"
+                  />
+                </div>
+                <div
+                  class="contact-form__input-wrapper hidden-left"
+                  style="animation-delay: 0.9s"
+                >
+                  <label for="textarea">Your email name</label>
+                  <textarea
+                    name="textarea"
+                    id="textarea"
+                    placeholder="Leave a message..."
+                    class="contact-form__input"
+                  >
+                  </textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn contact-form-submit-btn hidden-left"
+                  style="animation-delay: 1.5s"
+                >
+                  Send us an Enquire
+                  <img
+                    src="/src/assets/icons/send-msg-icon.svg"
+                    alt="send icon"
+                  />
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="/src/assets/images/blur-1.png"
+        class="blur-1"
+        aria-hidden="true"
+      />
+    </main>
+    <button class="back-to-top-btn" data-visible="false">
+      <img src="/src/assets/icons/back-to-top-icon.svg" alt="arrow up" />
+    </button>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a href="index.html" class="footer__logo">
+            <img src="/src/assets/images/footer-logo.png" alt="logo" />
+          </a>
+          <nav class="footer__nav">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="index.html">Home</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="services.html">Services</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="about-us.html">About</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__copyright">
+            <p>Copyright © 2025 Exact IT | Powered by Exact IT</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

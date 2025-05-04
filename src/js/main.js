@@ -64,6 +64,16 @@ gsap.from(".tech-card", {
     // markers: true,
   },
 });
+gsap.from(".projects-page-card", {
+  opacity: 0,
+  x: 50,
+  duration: 1,
+  stagger: 0.15,
+  scrollTrigger: {
+    trigger: ".projects-page-card",
+    start: "top 90%",
+  },
+});
 
 // from left stagger
 

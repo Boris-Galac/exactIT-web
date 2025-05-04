@@ -1,0 +1,25 @@
+.projects-page {
+}
+.projects__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.projects-page-card {
+  padding: 16px;
+  box-shadow: 0 0 16px rgb(44, 0, 163);
+  outline: 1px solid rgb(30, 51, 207);
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 0%, 0.071);
+  /* transition: 1s; */
+}
+/* .projects-page-card:hover {
+  scale: 1.1;
+} */
+.projects-page-heading {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.projects-page-card p {
+  font-weight: 200;
+}

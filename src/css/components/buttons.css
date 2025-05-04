@@ -35,6 +35,18 @@ button {
   position: absolute;
   left: 16px;
 }
+.back-to-home-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+  color: var(--white);
+  transition: 0.4s;
+  width: max-content;
+}
+.back-to-home-btn:hover {
+  scale: 1.08;
+}
 @media (min-width: 1200px) {
   .hero-linkedin-link {
     position: absolute;

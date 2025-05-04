@@ -15,6 +15,7 @@
 /* pages */
 @import "pages/home.css";
 @import "pages/services-page.css";
+@import "pages/projects-page.css";
 @import "pages/about-us-page.css";
 /* utilities */
 @import "utilities/animations.css";
