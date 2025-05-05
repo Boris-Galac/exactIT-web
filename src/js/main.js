@@ -112,3 +112,12 @@ window.addEventListener("scroll", (e) => {
     backToTopbtn.setAttribute("data-visible", "true");
   } else backToTopbtn.setAttribute("data-visible", "false");
 });
+
+if (document.querySelector(".hero-linkedin-link")) {
+  document
+    .querySelector(".hero-linkedin-link")
+    .addEventListener("click", (e) => {
+      e.preventDefault();
+      window.open("https://www.linkedin.com/company/exact-it/", "_blank");
+    });
+}
