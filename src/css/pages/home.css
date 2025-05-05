@@ -35,6 +35,28 @@
   width: 85%;
   object-fit: contain;
   opacity: 0.8;
+  animation: computer-illustration 15s alternate infinite;
+}
+@keyframes computer-illustration {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 2;
+  }
+}
+@media (min-width: 1024px) {
+  .computer-illustration {
+    animation: computer-illustration 25s alternate infinite;
+  }
+  @keyframes computer-illustration {
+    from {
+      scale: 0.7;
+    }
+    to {
+      scale: 1.7;
+    }
+  }
 }
 /* 👉 SERVICE section */
 .section-heading-wrapper {
