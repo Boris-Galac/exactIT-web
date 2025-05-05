@@ -76,10 +76,11 @@
   height: 2px;
   background-color: var(--white);
   width: 90%;
-  margin-inline: auto;
+  /* margin-left: auto; */
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+
   transition: 0.4s;
 }
 
