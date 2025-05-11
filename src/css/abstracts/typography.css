@@ -67,7 +67,7 @@ p {
   left: 16px;
   bottom: 16px;
   font-weight: 400;
-  font-size: clamp(40px, 7vw, 124px);
+  font-size: clamp(40px, 7vw, 50px);
 }
 .services-page__heading {
   font-size: clamp(20px, 7vw, 32px);
@@ -76,4 +76,11 @@ p {
   margin-right: 20px;
 }
 .projects-heading {
+}
+@media (min-width: 1024px) {
+  .banner-headline {
+    position: absolute;
+    left: 40px;
+    bottom: 16px;
+  }
 }

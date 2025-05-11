@@ -1,7 +1,8 @@
 .subpage-banner {
   position: relative;
-  height: 40vh;
+  height: 20vh;
   isolation: isolate;
+  overflow: hidden;
 }
 .subpage-banner::before {
   content: "";
@@ -10,7 +11,6 @@
   background: url("/src/assets/images/subpage-banner.png") no-repeat center
     center/cover;
   background-position-x: right;
-  height: 40vh;
   z-index: -1;
   animation: banner 3s forwards;
 }
