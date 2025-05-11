@@ -29,6 +29,9 @@
   display: flex;
   gap: 2vw;
 }
+.hero__main-content-logo {
+  width: 100px;
+}
 .computer-illustration {
   position: absolute;
   z-index: -1;
@@ -56,6 +59,9 @@
     to {
       scale: 1.7;
     }
+  }
+  .hero__main-content-logo {
+    width: 200px;
   }
 }
 /* 👉 SERVICE section */
