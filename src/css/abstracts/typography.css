@@ -75,8 +75,18 @@ p {
   text-align: right;
   margin-right: 20px;
 }
-.projects-heading {
+.about-us-h2-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: clamp(32px, 7vw, 40px);
+  font-weight: 400;
+  margin-bottom: 16px;
 }
+.about-us__row-wrapper p {
+  font-weight: 300;
+  text-align: center;
+}
+
 @media (min-width: 1024px) {
   .banner-headline {
     position: absolute;

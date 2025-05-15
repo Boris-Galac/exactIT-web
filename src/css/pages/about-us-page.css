@@ -12,14 +12,3 @@
   outline: 1px solid hsla(0, 0%, 100%, 0.15);
   background-color: hsla(0, 0%, 100%, 0.04);
 }
-.about-us-h2-heading {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: clamp(40px, 7vw, 56px);
-  font-weight: 400;
-  margin-bottom: 16px;
-}
-.about-us__row-wrapper p {
-  font-weight: 300;
-  text-align: center;
-}

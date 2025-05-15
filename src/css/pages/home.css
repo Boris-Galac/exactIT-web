@@ -81,10 +81,41 @@
   gap: 24px;
 }
 /* 👉 PORTFOLIO section */
+.portfolio__inner-container {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.portfolio__inner-first-wrapper {
+  display: grid;
+  gap: 24px;
+}
 .portfolio__inner-wrapper {
   display: grid;
   gap: 32px;
   margin-bottom: 64px;
+}
+@media (min-width: 1200px) {
+  .portfolio__inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 64px;
+  }
+  .portfolio__inner-first-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    margin-block: auto;
+    gap: 10vh;
+  }
+  .portfolio__inner-first-wrapper p {
+    max-width: 400px;
+    font-size: 24px;
+  }
+  .see-all-projects-btn {
+    margin-inline: unset;
+  }
 }
 /* 👉 TECHNOLOGY section */
 .technology__inner-wrapper {
