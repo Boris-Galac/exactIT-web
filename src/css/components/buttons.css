@@ -121,6 +121,7 @@ button {
 }
 .proposal-btn {
   width: max-content;
+  height: max-content;
 }
 .proposal-btn:hover,
 .schedule-btn:hover {
