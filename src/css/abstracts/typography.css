@@ -23,6 +23,7 @@ p {
 .hero__headline {
   font-weight: 200;
   font-size: clamp(40px, 7vw, 64px);
+  text-indent: -5px;
 }
 .hero__headline i {
   font-weight: 700;
@@ -92,5 +93,10 @@ p {
     position: absolute;
     left: 40px;
     bottom: 16px;
+  }
+  .hero__headline {
+    font-weight: 200;
+    font-size: clamp(40px, 7vw, 64px);
+    text-indent: -8px;
   }
 }
